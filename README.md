@@ -34,4 +34,11 @@ express_mvc/
 Navigate into the project directory:Bash   cd express_mvc
 Install the required dependencies:Bash   npm install
 Running the ApplicationTo start the server in development mode (using nodemon if configured):Bashnpm start
-The server will typically spin up at http://localhost:3500 (or your configured PORT).📡 API EndpointsMethodEndpointDescriptionGET/employeesRetrieve all employeesGET/employees/:idGet details of a single employeePOST/employeesCreate a new employee recordPUT/employeesUpdate/Change existing employee detailsDELETE/employeesRemove an employee record🤝 AcknowledgmentsDave Gray — For the foundational tutorial and structural guidance on building Express applications.
+The server will typically spin up at http://localhost:3500 (or your configured PORT).
+📡 API EndpointsMethodEndpointDescription
+1 GET/employeesRetrieve all employees
+2 GET/employees/:idGet details of a single employee
+3 POST/employeesCreate a new employee record
+4 PUT/employeesUpdate/Change existing employee details
+5 DELETE/employeesRemove an employee record
+🤝 AcknowledgmentsDave Gray — For the foundational tutorial and structural guidance on building Express applications.
